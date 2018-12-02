@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        android:background="@color/colorAccent">
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/game_fragment_button_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game_fragment_button_height" />
+                <Button
+                    android:id="@+id/game_fragment_button_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game_fragment_button_height"  />
+                <Button
+                    android:id="@+id/game_fragment_button_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game_fragment_button_height"  />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/game_fragment_button_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game_fragment_button_height" />
+                <Button
+                    android:id="@+id/game_fragment_button_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game_fragment_button_height" />
+                <Button
+                    android:id="@+id/game_fragment_button_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game_fragment_button_height" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/game_fragment_button_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game_fragment_button_height" />
+                <Button
+                    android:id="@+id/game_fragment_button_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game_fragment_button_height" />
+                <Button
+                    android:id="@+id/game_fragment_button_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game_fragment_button_height" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
